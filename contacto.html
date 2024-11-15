@@ -1,0 +1,75 @@
+<!--Pagina donde se muestra formulario de contacto --> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <title>Contacto</title>
+
+ <!--Referencia css-->
+ <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+</head>
+
+<body>
+
+ <!--Titulo de la pagina principal -->
+ <header>
+   <h1> * Sociedad Gastronómica y Cultural * </h1>
+ </header>
+
+ <!--Inicio de la Nav-->
+   <nav>
+       <ul>
+           <li><a href="index.html"> Inicio</a></li>
+           <li><a href="quienes_somos.html"> Quienes somos</a></li>
+           <li><a href="donde_estamos.html">Donde estamos</a></li>
+           <li><a href="carta.html">Carta</a></li>
+           <li><a href="contacto.html">Contacto</a></li>
+       </ul>
+   </nav>
+ <h2>¡Contáctanos! Tu opinión es importante</h2>
+
+ <!--Inicio del formulario-->
+ <div class="caja">
+  <form action="envio.html" method="GET">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nombre y Apellido</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="Nombre y Apellido" placeholder="Nombre ..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Correo electronico</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="Correo" placeholder="Correo electronico..">
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-75">
+       </div>
+     </div>
+     <div class="row">
+      <div class="col-25">
+        <label for="subject">Contenido</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="Contenido" placeholder="Contenido.." ></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <input type="submit" value="Enviar" >
+    </div>
+  </form>
+</div>
+<footer>copyright reserved: alfredo.caraballo31@gmail.com </footer>
+
+<!--JavaScrip-->
+<script src="funciones/funciones.js"></script>
+</body>
+</html>
+
